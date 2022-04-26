@@ -85,7 +85,7 @@
         },
         {
             "mesh" : 5,
-            "name" : "QSFPDD_labela_01",
+            "name" : "QSFPDD_label",
             "translation" : [
                 0.0567999966442585,
                 0.00514962337911129,
@@ -147,6 +147,112 @@
             ]
         }
     ],
+    "materials" : [
+        {
+            "name" : "Brushed_Metal",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.5879999995231628,
+                    0.5879999995231628,
+                    0.5879999995231628,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.2098422795534134
+            }
+        },
+        {
+            "name" : "Copper",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.4745098054409027,
+                    0.25882354378700256,
+                    0.05882352963089943,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.18755359947681427
+            }
+        },
+        {
+            "name" : "PCB Board Golden",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.6470588445663452,
+                    0.5843137502670288,
+                    0.24313725531101227,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.24033129215240479
+            }
+        },
+        {
+            "name" : "PCB Board Green",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0,
+                    0.35686275362968445,
+                    0.20000000298023224,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.24033129215240479
+            }
+        },
+        {
+            "name" : "Handle",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0,
+                    0.3960784375667572,
+                    0.8823529481887817,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.4500536322593689
+            }
+        },
+        {
+            "name" : "Label",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.8627451062202454,
+                    0.8627451062202454,
+                    0.8627451062202454,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.30481669306755066
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Material #25",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.8392156958580017,
+                    0.8392156958580017,
+                    0.8117647171020508,
+                    1
+                ],
+                "metallicFactor" : 0
+            }
+        },
+        {
+            "name" : "Side_Latches",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.46666666865348816,
+                    0.5882353186607361,
+                    0.5882353186607361,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.3584728240966797
+            }
+        }
+    ],
     "meshes" : [
         {
             "name" : "QSFPDD_base",
@@ -157,7 +263,8 @@
                         "NORMAL" : 1,
                         "TEXCOORD_0" : 2
                     },
-                    "indices" : 3
+                    "indices" : 3,
+                    "material" : 0
                 }
             ]
         },
@@ -170,7 +277,8 @@
                         "NORMAL" : 5,
                         "TEXCOORD_0" : 6
                     },
-                    "indices" : 7
+                    "indices" : 7,
+                    "material" : 1
                 }
             ]
         },
@@ -183,7 +291,8 @@
                         "NORMAL" : 9,
                         "TEXCOORD_0" : 10
                     },
-                    "indices" : 11
+                    "indices" : 11,
+                    "material" : 2
                 }
             ]
         },
@@ -196,7 +305,8 @@
                         "NORMAL" : 13,
                         "TEXCOORD_0" : 14
                     },
-                    "indices" : 15
+                    "indices" : 15,
+                    "material" : 3
                 }
             ]
         },
@@ -209,19 +319,21 @@
                         "NORMAL" : 17,
                         "TEXCOORD_0" : 18
                     },
-                    "indices" : 19
+                    "indices" : 19,
+                    "material" : 4
                 }
             ]
         },
         {
-            "name" : "QSFPDD_labela_01",
+            "name" : "QSFPDD_label",
             "primitives" : [
                 {
                     "attributes" : {
                         "POSITION" : 20,
                         "NORMAL" : 21
                     },
-                    "indices" : 22
+                    "indices" : 22,
+                    "material" : 5
                 }
             ]
         },
@@ -234,7 +346,8 @@
                         "NORMAL" : 24,
                         "TEXCOORD_0" : 25
                     },
-                    "indices" : 26
+                    "indices" : 26,
+                    "material" : 6
                 }
             ]
         },
@@ -247,7 +360,8 @@
                         "NORMAL" : 28,
                         "TEXCOORD_0" : 29
                     },
-                    "indices" : 30
+                    "indices" : 30,
+                    "material" : 7
                 }
             ]
         }
